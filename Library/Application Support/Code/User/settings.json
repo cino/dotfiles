@@ -1,0 +1,23 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "telemetry.enableTelemetry": false,
+    "git.autofetch": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.colorTheme": "Darcula",
+    "breadcrumbs.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "problems.showCurrentInStatus": true,
+    "gitlens.advanced.telemetry.enabled": false,
+    "gitlens.blame.avatars": false,
+    "gitlens.codeLens.scopes": [
+        "containers",
+        "document"
+    ],
+    "gitlens.currentLine.enabled": false,
+    "git.suggestSmartCommit": false
+}

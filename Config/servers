@@ -1,0 +1,1 @@
+alias emca='ssh-add && ssh -A ricardo@18.197.237.210'
