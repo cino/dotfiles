@@ -23,6 +23,9 @@ source $ZSH/oh-my-zsh.sh
 source ~/Config/aliases
 source ~/Config/servers
 
+# Doesn't exist by default, only used for settings that should not be on Github.
+source ~/Config/private
+
 ##
 # Node Version Manager
 ##
