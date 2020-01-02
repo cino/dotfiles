@@ -1,10 +1,18 @@
-export PATH=$HOME/bin:/usr/local/bin:vendor/bin:$PATH
-export PATH=$PATH":$HOME/.composer/vendor/bin"
-export ZSH=$HOME/.oh-my-zsh
+##
+# Paths
+##
+
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+
+export PATH=$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 ##
 # ZSH
 ##
+
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="cino"
 DEFAULT_USER="ricardocino"
