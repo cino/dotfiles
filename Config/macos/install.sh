@@ -1,11 +1,14 @@
-#!/bin/bash
+#!/bin/sh
 
 ################################################################################
 # Set up                                                                       #
 ################################################################################
 
 # Clone the dotfiles into a bare repository
-git clone --bare https://github.com/cino/dotfiles.git ~/.dotfiles
+
+# Uncomment when ready.
+
+# git clone --bare https://github.com/cino/dotfiles.git ~/.dotfiles
 
 # Define the alias in the current shell scope
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

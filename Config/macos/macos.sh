@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ################################################################################
 # Setup                                                                        #
@@ -74,24 +74,11 @@ dockutil --no-restart --add '/Applications/TablePlus.app'
 dockutil --no-restart --add '/Applications/Insomnia.app'
 defaults write com.apple.Dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}' # Spacer
 
-
-#mail
-
-#vscode
-#phpstorm
-#tableplus
-#insomnia
-
-
-
-#spotify
-
 # Don't show recent applications
 defaults write com.apple.Dock show-recents -bool false
 
 # Set the icon size of Dock items to 16 pixels
 defaults write com.apple.Dock tilesize -integer 16
-
 
 
 ################################################################################
