@@ -19,10 +19,7 @@ alias logall="tail -f **/*.log"
 alias lclearall="php artisan route:clear && php artisan cache:clear && php artisan view:clear && php artisan config:clear"
 
 alias phpunit="./vendor/bin/phpunit"
-alias phpunitw="phpunit-watcher watch"
-alias ehead="cd ~/Applications/elasticsearch-head && npm run start"
 alias gfp="git fetch && git pull"
-alias nah="git reset --hard && git clean -df"
 alias barbecuuee="git reset --hard && git clean -df && echo -e '\033[1m\nwho wantz to be a burgerrr 🔥'"
 alias mysqltop="watch -n 1 --differences \"mysql -uroot -e 'SHOW FULL PROCESSLIST;'\""
 alias npmwatch="rm -rf node_modules && rm package-lock.json && npm install && npm run watch"
@@ -31,4 +28,4 @@ alias please='sudo $(history -p !!)'
 # Quick locations
 
 alias home='cd ~/'
-alias dev='cd ~/Development'
+alias dev='cd ~/Dev'
