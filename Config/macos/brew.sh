@@ -18,3 +18,6 @@ brew update
 brew tap homebrew/cask-cask
 
 brew install dockutil
+brew install nmap
+brew install watch
+brew install wget
