@@ -19,5 +19,13 @@
         "document"
     ],
     "gitlens.currentLine.enabled": false,
-    "git.suggestSmartCommit": false
+    "git.suggestSmartCommit": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "files.exclude": {
+        "**/.idea": true
+    },
+    "window.zoomLevel": 0,
+    "intelephense.environment.phpVersion": "7.4.1",
+    "editor.formatOnSave": true,
 }
