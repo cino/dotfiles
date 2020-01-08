@@ -16,7 +16,7 @@ alias a="php artisan"
 alias am="php artisan migrate"
 alias amr="php artisan migrate:rollback"
 alias logall="tail -f **/*.log"
-alias lclearall="php artisan route:clear && php artisan cache:clear && php artisan view:clear && php artisan config:clear"
+alias lca="php artisan route:clear && php artisan cache:clear && php artisan view:clear && php artisan config:clear"
 
 alias phpunit="./vendor/bin/phpunit"
 alias gfp="git fetch && git pull"
