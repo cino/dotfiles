@@ -7,9 +7,14 @@ alias git='hub'
 alias sshow="git stash show stash^{/$*} -p"
 alias sapply="git stash apply stash^{/$*}"
 alias ssave="git stash save "${1}""
+alias gs="hub sync"
+
 
 # Dotfiles 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Docker
+alias dex='docker-compose exec app'
 
 # Laravel
 alias a="php artisan"

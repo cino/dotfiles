@@ -21,3 +21,6 @@ brew install dockutil
 brew install nmap
 brew install watch
 brew install wget
+
+brew install awsebcli
+brew install fswatch
