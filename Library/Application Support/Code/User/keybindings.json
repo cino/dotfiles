@@ -152,5 +152,18 @@
         "key": "cmd+k",
         "command": "-workbench.action.terminal.clear",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
     }
 ]

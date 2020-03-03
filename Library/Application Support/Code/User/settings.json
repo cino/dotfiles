@@ -28,4 +28,31 @@
     "window.zoomLevel": 0,
     "intelephense.environment.phpVersion": "7.4.1",
     "editor.formatOnSave": true,
+    "explorer.compactFolders": false,
+    "git.openDiffOnClick": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "blade.format.enable": true,
+    "files.associations": {
+        ".blade.php": "html",
+        ".tpl": "html"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "onecentlin.laravel-blade",
+        "editor.formatOnSave": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "yaml.customTags": [
+        "!Equals sequence",
+        "!FindInMap sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Join sequence",
+        "!Ref",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub"
+    ]
 }
