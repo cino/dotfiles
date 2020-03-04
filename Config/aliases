@@ -16,6 +16,10 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Docker
 alias dex='docker-compose exec app'
 
+# PHP
+
+alias test="php -n ./vendor/bin/phpunit --colors=always"
+
 # Laravel
 alias a="php artisan"
 alias am="php artisan migrate"
