@@ -13,10 +13,12 @@ alias gs="hub sync"
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Docker
-alias dex='docker-compose exec app'
+alias dex='docker-compose exec'
+alias dc='docker-compose'
 
 # PHP
 alias test="php -n ./vendor/bin/phpunit --colors=always"
+alias testc="php -d zend_extension=xdebug.so ./vendor/bin/phpunit --coverage-html ./tests/coverage"
 
 # Laravel
 alias a="php artisan"
