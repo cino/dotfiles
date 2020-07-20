@@ -1,1 +1,94 @@
-{"notifications":true,"sound":false}
+{
+  "windowState": {
+    "main": {
+      "x": 0,
+      "y": 23,
+      "width": 1050,
+      "height": 1027,
+      "isMaximized": false
+    }
+  },
+  "notificationsMuted": false,
+  "soundMuted": true,
+  "services": [
+    {
+      "icon": "https://avatars.slack-edge.com/2016-12-23/120475256229_4a60e35a19fb2b5ab2ac_88.png",
+      "identifier": "G3aaHRDw7aQyfncv5L7d",
+      "index": 0,
+      "visible": true,
+      "title": "Slack",
+      "url": "https://23g.slack.com",
+      "soundEnabled": true,
+      "notificationsEnabled": false,
+      "notificationCount": 0,
+      "enabled": true,
+      "recipe": "/slack",
+      "unreadMessages": 0
+    },
+    {
+      "icon": "./services/whatsapp/icon.svg",
+      "identifier": "safsadfsadfsdafsdafasdasdßsadfafasdasdkljhjhuhiefdsf",
+      "index": 1,
+      "visible": false,
+      "title": "Whatsapp",
+      "url": "https://web.whatsapp.com",
+      "soundEnabled": true,
+      "notificationsEnabled": false,
+      "enabled": true,
+      "recipe": "/whatsapp",
+      "unreadMessages": 0,
+      "notificationCount": 0
+    },
+    {
+      "icon": "./services/telegram/icon.svg",
+      "identifier": "sBfhUVp2Aw6N8cvva3Zp",
+      "index": 2,
+      "visible": false,
+      "title": "Telegram",
+      "url": "https://web.telegram.org",
+      "soundEnabled": false,
+      "notificationsEnabled": false,
+      "enabled": true,
+      "recipe": "/telegram",
+      "unreadMessages": 0,
+      "notificationCount": 0
+    },
+    {
+      "icon": "./services/trello/icon.svg",
+      "identifier": "G3aaHRDwaasd7aQyfncv5L7da",
+      "index": 3,
+      "visible": false,
+      "title": "Trello",
+      "url": "https://trello.com/b/rwF2ptvJ/basket",
+      "soundEnabled": true,
+      "notificationsEnabled": true,
+      "enabled": true,
+      "recipe": "/whatsapp",
+      "unreadMessages": 0,
+      "notificationCount": 0
+    },
+    {
+      "icon": "./services/slack/icon.svg",
+      "identifier": "G3aHRDw7aQyfncv5L7da",
+      "index": 4,
+      "visible": false,
+      "title": "Mailhog",
+      "url": "http://localhost:8025",
+      "soundEnabled": false,
+      "notificationsEnabled": false,
+      "enabled": true,
+      "recipe": "/mailhog",
+      "unreadMessages": 0,
+      "notificationCount": 0
+    },
+    {
+      "icon": "./static/icons/basket.svg",
+      "identifier": "323b1fc4-bd1f-4e08-ba1a-c35bfb944061",
+      "index": 5,
+      "visible": false,
+      "title": "New service",
+      "url": "./preferences.html"
+    }
+  ],
+  "showPreferences": false
+}

@@ -5,9 +5,11 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
+export PATH=$HOME/Library/Python/3.8/bin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin":$PATH
+export PATH="/usr/local/opt/mysql@5.7/bin":$PATH
 
 ##
 # ZSH
@@ -34,6 +36,9 @@ source ~/Config/servers
 
 # Doesn't exist by default, only used for settings that should not be on Github.
 source ~/Config/private
+
+# Set LC_ALL
+export LC_ALL=en_US.UTF-8
 
 ##
 # Node Version Manager

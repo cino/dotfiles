@@ -10,7 +10,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "workbench.colorTheme": "Darcula",
+    "workbench.colorTheme": "GitHub Dark",
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "problems.showCurrentInStatus": true,
@@ -27,6 +27,32 @@
     "files.exclude": {
         "**/.idea": true
     },
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".vue",
+            ".jsx"
+        ]
+    },
+    "eslint.validate": [
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
     "window.zoomLevel": 0,
     "intelephense.environment.phpVersion": "7.4.1",
     "editor.formatOnSave": true,
@@ -166,4 +192,37 @@
     "html.format.endWithNewline": true,
     "html.format.indentInnerHtml": true,
     "html.format.wrapAttributes": "force-expand-multiline",
+    "workbench.activityBar.visible": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.minikube-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.draft-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "vetur.format.options.tabSize": 4,
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.vueIndentScriptAndStyle": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.trailingComma": "all",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
