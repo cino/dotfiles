@@ -1,5 +1,8 @@
+# Various
+alias timestamp="date '+%s'"
+
 # Python
-alias python='python3'
+# alias python='python3'
 alias pip='pip3'
 
 # Git
@@ -11,6 +14,7 @@ alias gs="hub sync"
 
 # Dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias rmail="sudo rm -rf /var/mail/$USER"
 
 # Docker
 alias dex='docker-compose exec'
@@ -18,9 +22,10 @@ alias dc='docker-compose'
 
 # PHP
 alias test="php -n ./vendor/bin/phpunit --colors=always"
-alias testc="php -d zend_extension=xdebug.so ./vendor/bin/phpunit --coverage-html ./tests/coverage"
+alias testc="php -d zend_extension=xdebug.so ./vendor/bin/phpunit --coverage-html ./public/coverage"
 
 # Laravel
+alias vapor="php ./vendor/bin/vapor"
 alias a="php artisan"
 alias am="php artisan migrate"
 alias amr="php artisan migrate:rollback"

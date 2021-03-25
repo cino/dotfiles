@@ -10,16 +10,13 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Default Dark+",
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "problems.showCurrentInStatus": true,
     "gitlens.advanced.telemetry.enabled": false,
     "gitlens.blame.avatars": false,
-    "gitlens.codeLens.scopes": [
-        "containers",
-        "document"
-    ],
+    "gitlens.codeLens.scopes": ["containers", "document"],
     "gitlens.currentLine.enabled": false,
     "git.suggestSmartCommit": false,
     "gitlens.codeLens.authors.enabled": false,
@@ -28,12 +25,7 @@
         "**/.idea": true
     },
     "eslint.options": {
-        "extensions": [
-            ".html",
-            ".js",
-            ".vue",
-            ".jsx"
-        ]
+        "extensions": [".html", ".js", ".vue", ".jsx"]
     },
     "eslint.validate": [
         {
@@ -71,18 +63,28 @@
         "editor.formatOnSave": true
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
+    // Custom tags for the parser to use
     "yaml.customTags": [
-        "!Equals sequence",
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
         "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
         "!GetAtt",
         "!GetAZs",
         "!ImportValue",
-        "!Join sequence",
-        "!Ref",
+        "!Select",
         "!Select sequence",
-        "!Split sequence",
-        "!Sub"
+        "!Split",
+        "!Join sequence"
     ],
+    // Enable/disable default YAML formatter (requires restart)
+    "yaml.format.enable": true,
     // PHP
     "php.validate.enable": false,
     "php.suggest.basic": false,
@@ -224,5 +226,14 @@
     },
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.useLanguageServer": true,
+    "aws.onDefaultRegionMissing": "add",
+    "workbench.sideBar.location": "left",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "tailwindCSS.includeLanguages": {
+        "vue": "html"
     }
 }

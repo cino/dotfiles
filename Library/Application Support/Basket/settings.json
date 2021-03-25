@@ -2,24 +2,24 @@
   "windowState": {
     "main": {
       "x": 0,
-      "y": 23,
-      "width": 1050,
-      "height": 1027,
+      "y": 25,
+      "width": 1108,
+      "height": 1025,
       "isMaximized": false
     }
   },
-  "notificationsMuted": false,
+  "notificationsMuted": true,
   "soundMuted": true,
   "services": [
     {
       "icon": "https://avatars.slack-edge.com/2016-12-23/120475256229_4a60e35a19fb2b5ab2ac_88.png",
       "identifier": "G3aaHRDw7aQyfncv5L7d",
       "index": 0,
-      "visible": true,
+      "visible": false,
       "title": "Slack",
       "url": "https://23g.slack.com",
       "soundEnabled": true,
-      "notificationsEnabled": false,
+      "notificationsEnabled": true,
       "notificationCount": 0,
       "enabled": true,
       "recipe": "/slack",
@@ -29,11 +29,11 @@
       "icon": "./services/whatsapp/icon.svg",
       "identifier": "safsadfsadfsdafsdafasdasdßsadfafasdasdkljhjhuhiefdsf",
       "index": 1,
-      "visible": false,
+      "visible": true,
       "title": "Whatsapp",
       "url": "https://web.whatsapp.com",
       "soundEnabled": true,
-      "notificationsEnabled": false,
+      "notificationsEnabled": true,
       "enabled": true,
       "recipe": "/whatsapp",
       "unreadMessages": 0,
@@ -47,7 +47,7 @@
       "title": "Telegram",
       "url": "https://web.telegram.org",
       "soundEnabled": false,
-      "notificationsEnabled": false,
+      "notificationsEnabled": true,
       "enabled": true,
       "recipe": "/telegram",
       "unreadMessages": 0,
@@ -60,8 +60,8 @@
       "visible": false,
       "title": "Trello",
       "url": "https://trello.com/b/rwF2ptvJ/basket",
-      "soundEnabled": true,
-      "notificationsEnabled": true,
+      "soundEnabled": false,
+      "notificationsEnabled": false,
       "enabled": true,
       "recipe": "/whatsapp",
       "unreadMessages": 0,
@@ -80,15 +80,17 @@
       "recipe": "/mailhog",
       "unreadMessages": 0,
       "notificationCount": 0
-    },
-    {
-      "icon": "./static/icons/basket.svg",
-      "identifier": "323b1fc4-bd1f-4e08-ba1a-c35bfb944061",
-      "index": 5,
-      "visible": false,
-      "title": "New service",
-      "url": "./preferences.html"
     }
   ],
-  "showPreferences": false
+  "showPreferences": false,
+  "settings": {
+    "soundMuted": true,
+    "notificationsMuted": true,
+    "dockBounce": true,
+    "enabledSearchProviders": [
+      "bing",
+      "google"
+    ],
+    "language": "en"
+  }
 }

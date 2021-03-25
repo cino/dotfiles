@@ -19,8 +19,11 @@ brew tap homebrew/cask-cask
 
 brew install dockutil
 brew install nmap
+brew install whatmask
 brew install watch
 brew install wget
 
 brew install awsebcli
 brew install fswatch
+brew install mkcert
+brew install nss
