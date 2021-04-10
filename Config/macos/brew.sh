@@ -20,6 +20,7 @@ brew tap homebrew/cask-cask
 brew install dockutil
 brew install nmap
 brew install whatmask
+brew install gnupg
 brew install watch
 brew install wget
 

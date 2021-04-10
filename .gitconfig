@@ -7,6 +7,7 @@
     email = 2735602+cino@users.noreply.github.com
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
+	gpgsign = true
 [alias]
     sshow = !sh -c 'git stash show stash^{/$*} -p' -
     sapply = !sh -c 'git stash apply stash^{/$*}' -
