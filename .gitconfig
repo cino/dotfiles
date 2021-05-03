@@ -4,10 +4,10 @@
     autocrlf = input
 [user]
     name = Ricardo Cino
-    email = 2735602+cino@users.noreply.github.com
+    email = ricardo@cino.io
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
-	gpgsign = true
+	gpgsign = false
 [alias]
     sshow = !sh -c 'git stash show stash^{/$*} -p' -
     sapply = !sh -c 'git stash apply stash^{/$*}' -
@@ -21,3 +21,5 @@
 	required = true
 [credential]
 	helper = store
+[init]
+	defaultBranch = main

@@ -3,7 +3,7 @@
     "main": {
       "x": 0,
       "y": 25,
-      "width": 1108,
+      "width": 1225,
       "height": 1025,
       "isMaximized": false
     }
@@ -26,10 +26,20 @@
       "unreadMessages": 0
     },
     {
+      "icon": "https://avatars.slack-edge.com/2020-08-12/1290945074278_21556797a20c81b67192_88.png",
+      "enabled": true,
+      "identifier": "c32c6d11-4238-4571-ac6d-97f191aa5313",
+      "index": 1,
+      "visible": false,
+      "title": "VantageCommunity",
+      "url": "https://vantagecommunity.slack.com/",
+      "notificationCount": 0
+    },
+    {
       "icon": "./services/whatsapp/icon.svg",
       "identifier": "safsadfsadfsdafsdafasdasdßsadfafasdasdkljhjhuhiefdsf",
-      "index": 1,
-      "visible": true,
+      "index": 2,
+      "visible": false,
       "title": "Whatsapp",
       "url": "https://web.whatsapp.com",
       "soundEnabled": true,
@@ -42,8 +52,8 @@
     {
       "icon": "./services/telegram/icon.svg",
       "identifier": "sBfhUVp2Aw6N8cvva3Zp",
-      "index": 2,
-      "visible": false,
+      "index": 3,
+      "visible": true,
       "title": "Telegram",
       "url": "https://web.telegram.org",
       "soundEnabled": false,
@@ -56,13 +66,13 @@
     {
       "icon": "./services/trello/icon.svg",
       "identifier": "G3aaHRDwaasd7aQyfncv5L7da",
-      "index": 3,
+      "index": 4,
       "visible": false,
       "title": "Trello",
       "url": "https://trello.com/b/rwF2ptvJ/basket",
       "soundEnabled": false,
       "notificationsEnabled": false,
-      "enabled": true,
+      "enabled": false,
       "recipe": "/whatsapp",
       "unreadMessages": 0,
       "notificationCount": 0
@@ -70,7 +80,7 @@
     {
       "icon": "./services/slack/icon.svg",
       "identifier": "G3aHRDw7aQyfncv5L7da",
-      "index": 4,
+      "index": 5,
       "visible": false,
       "title": "Mailhog",
       "url": "http://localhost:8025",
@@ -79,6 +89,16 @@
       "enabled": true,
       "recipe": "/mailhog",
       "unreadMessages": 0,
+      "notificationCount": 0
+    },
+    {
+      "icon": "./static/icons/basket.svg",
+      "enabled": true,
+      "identifier": "aca13d78-dd6c-4fa7-a1b5-37d38f98c66a",
+      "index": 6,
+      "visible": false,
+      "title": "New service",
+      "url": "https://source.unsplash.com/random/1600x900",
       "notificationCount": 0
     }
   ],

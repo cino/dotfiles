@@ -14,50 +14,15 @@
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "problems.showCurrentInStatus": true,
-    "gitlens.advanced.telemetry.enabled": false,
-    "gitlens.blame.avatars": false,
-    "gitlens.codeLens.scopes": ["containers", "document"],
-    "gitlens.currentLine.enabled": false,
     "git.suggestSmartCommit": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
     "files.exclude": {
         "**/.idea": true
     },
-    "eslint.options": {
-        "extensions": [".html", ".js", ".vue", ".jsx"]
-    },
-    "eslint.validate": [
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        }
-    ],
-    "window.zoomLevel": 0,
-    "intelephense.environment.phpVersion": "7.4.1",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "explorer.compactFolders": false,
     "git.openDiffOnClick": false,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "blade.format.enable": true,
-    "files.associations": {
-        "*.vue": "vue",
-        "*.php-cs": "php"
-    },
     "[blade]": {
         "editor.defaultFormatter": "onecentlin.laravel-blade",
         "editor.formatOnSave": true
@@ -81,133 +46,23 @@
         "!Select",
         "!Select sequence",
         "!Split",
+        "!Split sequence",
         "!Join sequence"
     ],
     // Enable/disable default YAML formatter (requires restart)
     "yaml.format.enable": true,
-    // PHP
-    "php.validate.enable": false,
-    "php.suggest.basic": false,
-    "intelephense.stubs": [
-        "apache",
-        "redis",
-        "bcmath",
-        "bz2",
-        "calendar",
-        "com_dotnet",
-        "Core",
-        "ctype",
-        "curl",
-        "date",
-        "dba",
-        "dom",
-        "enchant",
-        "exif",
-        "fileinfo",
-        "filter",
-        "fpm",
-        "ftp",
-        "gd",
-        "hash",
-        "iconv",
-        "imap",
-        "interbase",
-        "intl",
-        "json",
-        "ldap",
-        "libxml",
-        "mbstring",
-        "mcrypt",
-        "meta",
-        "mssql",
-        "mysqli",
-        "oci8",
-        "odbc",
-        "openssl",
-        "pcntl",
-        "pcre",
-        "PDO",
-        "pdo_ibm",
-        "pdo_mysql",
-        "pdo_pgsql",
-        "pdo_sqlite",
-        "pgsql",
-        "Phar",
-        "posix",
-        "pspell",
-        "readline",
-        "recode",
-        "Reflection",
-        "regex",
-        "session",
-        "shmop",
-        "SimpleXML",
-        "snmp",
-        "soap",
-        "sockets",
-        "sodium",
-        "SPL",
-        "sqlite3",
-        "standard",
-        "superglobals",
-        "sybase",
-        "sysvmsg",
-        "sysvsem",
-        "sysvshm",
-        "tidy",
-        "tokenizer",
-        "wddx",
-        "xml",
-        "xmlreader",
-        "xmlrpc",
-        "xmlwriter",
-        "Zend OPcache",
-        "zip",
-        "zlib"
-    ],
-    "intelephense.telemetry.enabled": false,
-    "intelephense.format.enable": true,
-    "intelephense.completion.triggerParameterHints": true,
-    "intelephense.completion.insertUseDeclaration": true,
-    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
-    "intelephense.trace.server": "messages",
-    "intelephense.files.exclude": [
-        "**/.git/**",
-        "**/.svn/**",
-        "**/.hg/**",
-        "**/CVS/**",
-        "**/.DS_Store/**",
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/storage",
-        "**/storage/**",
-        "**/tests/**",
-        "**/resources/views/**",
-        "**/database/migrations/**",
-        "**/storage/framework/views/**",
-        "_ide_helper.php",
-        "_ide_helper_models"
-    ],
     "git.showPushSuccessNotification": true,
-    "php-docblocker.returnGap": true,
-    "php-docblocker.qualifyClassNames": true,
     "html.format.endWithNewline": true,
     "html.format.indentInnerHtml": true,
-    "html.format.wrapAttributes": "force-expand-multiline",
+    "html.format.wrapAttributes": "aligned-multiple",
     "workbench.activityBar.visible": true,
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-        "vs-kubernetes.minikube-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-        "vs-kubernetes.draft-path.mac": "/Users/ricardocino/.vs-kubernetes/tools/draft/darwin-amd64/draft"
-    },
     "vetur.format.options.tabSize": 4,
     "javascript.preferences.quoteStyle": "single",
     "prettier.singleQuote": true,
     "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "prettier.tabWidth": 4,
-    "prettier.vueIndentScriptAndStyle": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -220,20 +75,100 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.trailingComma": "all",
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "go.useLanguageServer": true,
-    "aws.onDefaultRegionMissing": "add",
     "workbench.sideBar.location": "left",
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
     "tailwindCSS.includeLanguages": {
         "vue": "html"
-    }
+    },
+    "vetur.format.scriptInitialIndent": true,
+    "vetur.format.styleInitialIndent": true,
+    "yaml.schemas": {},
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.trailingComma": "all",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.templating": true,
+    "html.format.enable": false,
+    "emmet.includeLanguages": { "django-html": "html" },
+    "files.associations": {
+        "*.vue": "vue",
+        "*.php-cs": "php",
+        "*.html": "liquid"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liquid.rules": {
+        "ignore": [
+            {
+                "type": "liquid",
+                "begin": "comment",
+                "end": "endcomment"
+            },
+            {
+                "type": "html",
+                "begin": "script",
+                "end": "script"
+            },
+            {
+                "type": "html",
+                "begin": "style",
+                "end": "style"
+            }
+        ],
+        "html": {
+            "correct": false,
+            "force_attribute": false,
+            "braces": false,
+            "preserve": 2,
+            "unformatted": false
+        },
+        "js": {
+            "preserve": 1,
+            "method_chain": 0,
+            "quote_convert": "none",
+            "format_array": "indent",
+            "format_object": "indent",
+            "braces": false,
+            "no_semicolon": false,
+            "brace_block": true
+        },
+        "scss": {
+            "css_insert_lines": true,
+            "preserve": 2,
+            "braces": false,
+            "brace_block": true
+        },
+        "css": {
+            "css_insert_lines": true,
+            "preserve": 2,
+            "braces": false,
+            "brace_block": true
+        },
+        "json": {
+            "preserve": 0,
+            "braces": false,
+            "brace_block": true,
+            "no_semicolon": true
+        }
+    },
+    "cSpell.userWords": [
+        "aligncenter",
+        "cino",
+        "laravel",
+        "ondemand",
+        "ricardo",
+        "webp"
+    ]
 }

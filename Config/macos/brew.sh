@@ -28,3 +28,4 @@ brew install awsebcli
 brew install fswatch
 brew install mkcert
 brew install nss
+brew install peco

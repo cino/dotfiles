@@ -8,53 +8,53 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/Library/Python/3.8/bin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/bin:$PATH
-export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin":$PATH
-export PATH="/usr/local/opt/mysql@5.7/bin":$PATH
 
 ##
 # ZSH
 ##
-
 export ZSH=$HOME/.oh-my-zsh
+
+##
+# Sources
+#
+source ~/Config/aliases
+source ~/Config/servers
 
 ZSH_THEME="cino"
 DEFAULT_USER="ricardocino"
 
+export ENHANCD_FILTER="/opt/homebrew/bin/peco:fzf:non-existing-filter"
+
 plugins=(
-    git 
-    laravel5 
+    aws
+    autojump
+    git
+    laravel5
+    k
     osx
+    vscode
+    zsh-syntax-highlighting
+    zsh-completions
 )
 
-##
-# Sources
-##
-
 source $ZSH/oh-my-zsh.sh
-source ~/Config/aliases
-source ~/Config/servers
+source $ZSH/custom/plugins/enhancd/init.sh
 
 # Doesn't exist by default, only used for settings that should not be on Github.
 source ~/Config/private
 
+# Fix GPG
+export GPG_TTY=$(tty)
+
 # Set LC_ALL
 export LC_ALL=en_US.UTF-8
 
-##
-# Node Version Manager
-##
+autoload -U compinit && compinit
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="$HOME/.bin:$PATH"
 
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/terraform terraform
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 
-# Added by serverless binary installer
-export PATH="$HOME/.serverless/bin:$PATH"
-
-# tabtab source for packages
-# uninstall by removing these lines
-[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
+chruby ruby-2.7.2
