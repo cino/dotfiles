@@ -10,7 +10,6 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "workbench.colorTheme": "Default Dark+",
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "problems.showCurrentInStatus": true,
@@ -170,5 +169,6 @@
         "ondemand",
         "ricardo",
         "webp"
-    ]
+    ],
+    "workbench.editor.untitled.hint": "hidden"
 }

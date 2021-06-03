@@ -3,7 +3,7 @@
     "main": {
       "x": 0,
       "y": 25,
-      "width": 1225,
+      "width": 1219,
       "height": 1025,
       "isMaximized": false
     }
@@ -15,7 +15,7 @@
       "icon": "https://avatars.slack-edge.com/2016-12-23/120475256229_4a60e35a19fb2b5ab2ac_88.png",
       "identifier": "G3aaHRDw7aQyfncv5L7d",
       "index": 0,
-      "visible": false,
+      "visible": true,
       "title": "Slack",
       "url": "https://23g.slack.com",
       "soundEnabled": true,
@@ -53,7 +53,7 @@
       "icon": "./services/telegram/icon.svg",
       "identifier": "sBfhUVp2Aw6N8cvva3Zp",
       "index": 3,
-      "visible": true,
+      "visible": false,
       "title": "Telegram",
       "url": "https://web.telegram.org",
       "soundEnabled": false,

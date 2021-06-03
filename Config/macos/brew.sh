@@ -29,3 +29,9 @@ brew install fswatch
 brew install mkcert
 brew install nss
 brew install peco
+
+
+# Terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install hashicorp/tap/packer
