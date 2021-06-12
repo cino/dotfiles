@@ -7,7 +7,7 @@
     email = ricardo@cino.io
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
-	gpgsign = false
+    gpgsign = true
 [alias]
     sshow = !sh -c 'git stash show stash^{/$*} -p' -
     sapply = !sh -c 'git stash apply stash^{/$*}' -
@@ -15,11 +15,11 @@
 [hub]
     protocol = https
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [credential]
-	helper = store
+    helper = store
 [init]
-	defaultBranch = main
+    defaultBranch = main
