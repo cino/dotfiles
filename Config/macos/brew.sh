@@ -15,12 +15,13 @@ fi
 # Latest brew, install brew cask
 brew upgrade
 brew update
-brew tap homebrew/cask-cask
+brew tap homebrew/cask
 
 brew install dockutil
 brew install nmap
 brew install whatmask
 brew install gnupg
+brew install --cask gpg-suite
 brew install watch
 brew install wget
 
@@ -29,7 +30,7 @@ brew install fswatch
 brew install mkcert
 brew install nss
 brew install peco
-
+brew install jq
 
 # Terraform
 brew tap hashicorp/tap
