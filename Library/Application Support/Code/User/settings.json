@@ -170,5 +170,6 @@
         "ricardo",
         "webp"
     ],
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "git.enableCommitSigning": true
 }
