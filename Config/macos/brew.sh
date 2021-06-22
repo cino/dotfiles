@@ -29,6 +29,7 @@ brew install mkcert
 brew install nss
 brew install peco
 brew install jq
+brew install fzf
 
 # GPG
 brew install gnupg
@@ -38,6 +39,7 @@ brew install --cask gpg-suite
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew install hashicorp/tap/packer
+brew install graphviz
 
 # Golang
 brew install go
