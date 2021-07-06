@@ -34,4 +34,3 @@ alias dev='cd ~/Dev'
 
 # Quick get ip
 alias ip='dig +short'
-
