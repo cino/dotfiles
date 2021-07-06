@@ -37,18 +37,23 @@ brew install gnupg
 brew install --cask gpg-suite
 
 # Various software for daily use
+brew install docker
 brew install --cask iterm2
+brew install --cask bartender
+brew install --cask raycast
 brew install --cask microsoft-edge
 brew install --cask spotify
+brew install --cask airtame
 brew install --cask insomnia
 brew install --cask sublime-text
 brew install --cask visual-studio-code
+brew install --cask jetbrains-toolbox
 brew install --cask notion
 brew install --cask tableplus
 brew install --cask mongodb-compass
 brew install --cask 1password
 brew install --cask ferdi
-brew install --cask raycast
+brew install --cask signal
 
 # Terraform
 brew tap hashicorp/tap
