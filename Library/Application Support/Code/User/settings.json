@@ -163,13 +163,29 @@
         }
     },
     "cSpell.userWords": [
+        "Csrf",
         "aligncenter",
         "cino",
+        "hashicorp",
         "laravel",
         "ondemand",
         "ricardo",
+        "stretchr",
         "webp"
     ],
     "workbench.editor.untitled.hint": "hidden",
-    "git.enableCommitSigning": true
+    "git.enableCommitSigning": true,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/objects/**",
+        ".vscode",
+        ".vscode-insiders",
+        "**.tfstate**"
+    ],
+    "aws.profile": "profile:default",
+    "redhat.telemetry.enabled": false
 }
