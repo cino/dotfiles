@@ -18,11 +18,14 @@ brew update
 brew tap homebrew/cask
 
 # Install utils
+brew install git
+brew install hub
 brew install dockutil
 brew install nmap
 brew install whatmask
 brew install watch
 brew install wget
+brew install curl
 brew install awscli
 brew install awsebcli
 brew install fswatch
@@ -31,6 +34,7 @@ brew install nss
 brew install peco
 brew install jq
 brew install fzf
+brew install tmux
 
 # GPG
 brew install gnupg
