@@ -23,6 +23,7 @@ brew install nmap
 brew install whatmask
 brew install watch
 brew install wget
+brew install awscli
 brew install awsebcli
 brew install fswatch
 brew install mkcert
@@ -43,3 +44,6 @@ brew install graphviz
 
 # Golang
 brew install go
+
+# Raycast
+brew install --cask raycast
