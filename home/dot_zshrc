@@ -17,13 +17,21 @@ zstyle ':omz:update' frequency 3
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(
-    aws
-    git
-    vscode
-    zsh-syntax-highlighting
-    zsh-completions
-)
+
+# Load Antidote & Plugins
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load
+
+
+# plugins=(
+#     aws
+#     git
+#     vscode
+#     zsh-syntax-highlighting
+#     zsh-completions
+# )
 
 source $ZSH/oh-my-zsh.sh
 
