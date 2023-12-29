@@ -1,0 +1,213 @@
+{
+    // performance
+    "search.exclude": {
+        "**/cdk.out": true
+    },
+    "files.watcherExclude": {
+        "**/cdk.out/**": true
+    },
+    // aws
+    "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+    "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+    "aws.codeWhisperer.importRecommendation": false,
+    "aws.telemetry": false,
+    // Explorer
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.enabled": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "explorer.compactFolders": false,
+    // SCM / Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.openDiffOnClick": false,
+    "scm.defaultViewMode": "tree",
+    "git.openRepositoryInParentFolders": "always",
+    "git.postCommitCommand": "push",
+    "git.suggestSmartCommit": false,
+    // Remote
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "problems.showCurrentInStatus": true,
+    "problems.defaultViewMode": "table",
+    "files.exclude": {
+        "**/.idea": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Enable/disable default YAML formatter (requires restart)
+    "git.showPushSuccessNotification": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapAttributes": "aligned-multiple",
+    "javascript.preferences.quoteStyle": "single",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.preferences.quoteStyle": "single",
+    "html.format.templating": true,
+    "html.format.enable": false,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "files.associations": {
+        "*.vue": "vue",
+        "*.php-cs": "php",
+        "*.html": "liquid"
+    },
+    "workbench.startupEditor": "none",
+    "json.schemas": [],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "eslint.workingDirectories": [
+        {
+            "directory": "demo-blog",
+        },
+        {
+            "directory": "serverless-blog",
+        }
+    ],
+    // languages
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "files.autoSave": "afterDelay",
+    "chat.experimental.quickQuestion.enable": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "redhat.telemetry.enabled": false,
+    "editor.tabSize": 2,
+    "workbench.editor.empty.hint": "hidden",
+    "nxConsole.showNodeVersionOnStartup": false,
+    "githubIssues.assignWhenWorking": false,
+    "http.proxySupport": "off",
+    "http.proxyStrictSSL": false,
+    "cSpell.userWords": [
+        "aaaabbcc",
+        "acuutilization",
+        "APLNETWORK",
+        "APLNETWORKID",
+        "Apls",
+        "awaitility",
+        "ccoe",
+        "Chrono",
+        "commitlint",
+        "Dinsdag",
+        "Donderdag",
+        "environement",
+        "functionname",
+        "gravitee",
+        "iots",
+        "joda",
+        "Locaties",
+        "Maandag",
+        "Middyfied",
+        "Milli",
+        "openingstijden",
+        "Openingstijden",
+        "PGADMIN",
+        "postalcode",
+        "postnl",
+        "POWERTOOLS",
+        "Pqrl",
+        "Processen",
+        "productie",
+        "Redrive",
+        "sftpacceptatie",
+        "STAGINGAPLNETWORK",
+        "STAGINGAPLNETWORKID",
+        "statemachine",
+        "statemachinename",
+        "Stationsplein",
+        "stepfunctions",
+        "STEST",
+        "transactionality",
+        "Unparseable",
+        "Upserted",
+        "upserting",
+        "Vrijdag",
+        "Woensdag",
+        "Zaterdag",
+        "Zondag"
+    ],
+    "cSpell.ignoreWords": [
+        "QVBM"
+    ],
+    "jest.autoRun": {
+
+        "watch": false
+    },
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "githubPullRequests.pullBranch": "never",
+    "jest.autoRevealOutput": "on-exec-error",
+    "jestrunner.codeLensSelector": "**/*.{test,spec,it}.{js,jsx,ts,tsx}"
+}
