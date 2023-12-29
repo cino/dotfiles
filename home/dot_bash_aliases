@@ -1,0 +1,35 @@
+#Chezmoi
+alias cm="chezmoi"
+
+# Various
+alias timestamp="date '+%s'"
+
+# Git
+alias git='hub'
+alias gs="hub sync"
+
+# Dotfiles
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias rmail='sudo rm -rf /var/mail/$USER'
+
+# Terraform
+alias tf='terraform'
+
+# Docker
+alias dex='docker-compose exec'
+alias dc='docker-compose'
+
+alias gfp='git fetch && git pull'
+alias npmwatch='rm -rf node_modules && rm package-lock.json && npm install && npm run watch'
+
+# Quick locations
+alias dev='cd ~/Dev'
+
+# Quick get ip
+alias ip='dig +short'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# Python
+
+
+alias python="python3"
