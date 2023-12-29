@@ -3,7 +3,7 @@
     editor = vim
     autocrlf = input
 [credential "https://git-codecommit.*.amazonaws.com"]
-    helper = !aws codecommit credential-helper $@ 
+    helper = !aws codecommit credential-helper $@
     UseHttpPath = true
 [user]
     name = Ricardo Cino
@@ -12,10 +12,6 @@
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
     gpgsign = true
-[alias]
-    sshow = !sh -c 'git stash show stash^{/$*} -p' -
-    sapply = !sh -c 'git stash apply stash^{/$*}' -
-    ssave = !sh -c 'git stash save "${1}"' -
 [hub]
     protocol = https
 [filter "lfs"]
@@ -28,7 +24,7 @@
 [fetch]
     prune = true
 [credential]
-	helper = !aws codecommit credential-helper $@
-	UseHttpPath = true
+    helper = !aws codecommit credential-helper $@
+    UseHttpPath = true
 [gpg]
     program = /usr/local/bin/gpg

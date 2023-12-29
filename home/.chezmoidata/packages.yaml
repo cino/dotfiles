@@ -25,6 +25,8 @@ packages:
     # Zsh
     - 'antidote'
     # - 'gnupg'
+    - 'hashicorp/tap/terraform'
+    - 'hashicorp/tap/packer'
     casks:
     - 'gpg-suite'
     - 'iterm2'
@@ -35,5 +37,3 @@ packages:
     - '1password'
     - 'signal'
     - 'drawio'
-    - 'terraform'
-    - 'packer'
