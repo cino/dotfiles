@@ -7,12 +7,15 @@ then
 
   ## Don't prompt for confirmation when installing homebrew
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
+
+  # Latest brew, install brew cask
+  brew upgrade
+  brew update
 fi
 
-# Latest brew, install brew cask
-brew upgrade
-brew update
-brew tap homebrew/cask
+{{ range .packages.darwin.taps -}}
+brew tap {{ . | quote }}
+{{ end -}}
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
 {{ range .packages.darwin.brews -}}

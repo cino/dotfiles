@@ -1,5 +1,7 @@
 packages:
   darwin:
+    taps:
+    - 'hashicorp/tap'
     brews:
     - 'git'
     - 'hub'
@@ -7,7 +9,7 @@ packages:
     - 'dockutil'
     - 'nmap'
     - 'whatmask'
-    - 'whatch'
+    - 'watch'
     - 'wget'
     - 'curl'
     - 'awscli'
@@ -33,3 +35,5 @@ packages:
     - '1password'
     - 'signal'
     - 'drawio'
+    - 'terraform'
+    - 'packer'
