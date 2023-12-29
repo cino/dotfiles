@@ -1,9 +1,13 @@
-export LC_ALL=en_US.UTF-8
-
+##################
+## Exports
+##################
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
+export PATH=$HOME/.bin:$PATH
+export PATH=$HOME/.rd/bin:$PATH
 
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/ricardocino/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export LC_ALL=en_US.UTF-8
+
+# Fix GPG
+export GPG_TTY=$(tty)
