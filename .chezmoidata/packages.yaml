@@ -20,6 +20,8 @@ packages:
     - 'tmux'
     - 'speedtest-cli'
     - 'httpie'
+    # Zsh
+    - 'antidote'
     # - 'gnupg'
     casks:
     - 'gpg-suite'
