@@ -1,0 +1,7 @@
+apps:
+  darwin:
+    - 'magnet'
+    - 'brother-iprint-scan'
+    - 'numbers'
+    - 'pages'
+    - 'keynote'
