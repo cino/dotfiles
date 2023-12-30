@@ -24,7 +24,7 @@ packages:
     - 'httpie'
     # Zsh
     - 'antidote'
-    # - 'gnupg'
+    - 'gnupg'
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
     casks:

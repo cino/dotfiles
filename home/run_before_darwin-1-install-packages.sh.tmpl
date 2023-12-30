@@ -26,4 +26,8 @@ brew {{ . | quote }}
 cask {{ . | quote }}
 {{ end -}}
 EOF
+
+# Not in bundle?
+brew install 1password-cli
+
 {{ end -}}
