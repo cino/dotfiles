@@ -8,7 +8,6 @@
 [user]
     name = Ricardo Cino
     email = ricardo@cino.io
-    # signingkey = A90F55A1
     signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMpQoNb9ThhQwYnEHJiBJT6w/5xF+iaPucG0rzZBRiyJ
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
