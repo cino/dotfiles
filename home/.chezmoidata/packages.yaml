@@ -24,6 +24,7 @@ packages:
     - 'httpie'
     # Zsh
     - 'antidote' # ZSH Plugin Management
+    - 'thefuck'
     - 'gnupg'
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
