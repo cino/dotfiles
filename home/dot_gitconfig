@@ -8,7 +8,8 @@
 [user]
     name = Ricardo Cino
     email = ricardo@cino.io
-    signingkey = A90F55A1
+    # signingkey = A90F55A1
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMpQoNb9ThhQwYnEHJiBJT6w/5xF+iaPucG0rzZBRiyJ
 [commit]
     template = /Users/ricardocino/.stCommitMsgi
     gpgsign = true
@@ -27,4 +28,6 @@
     helper = !aws codecommit credential-helper $@
     UseHttpPath = true
 [gpg]
-    program = /usr/local/bin/gpg
+  format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
