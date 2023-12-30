@@ -5,3 +5,4 @@ zsh-users/zsh-autosuggestions
 
 davidde/git
 wuotr/zsh-plugin-vscode
+laggardkernel/zsh-thefuck
