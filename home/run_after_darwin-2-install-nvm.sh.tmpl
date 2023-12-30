@@ -1,8 +1,13 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
+# check if ~/.nvm already exists and has valid git repository
+if [ -d ~/.nvm ]; then
+  cd ~/.nvm
+  git remote -v | grep -q 'nvm-sh/nvm' && exit 0
+fi
+
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-EOF
 {{ end -}}

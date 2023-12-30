@@ -25,7 +25,6 @@ packages:
     # Zsh
     - 'antidote' # ZSH Plugin Management
     - 'gnupg'
-    - 'leapp' # AWS Credentials management
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
     casks:
@@ -39,3 +38,4 @@ packages:
     - 'signal'
     - 'drawio'
     - 'protonvpn'
+    - 'leapp' # AWS Credentials management
