@@ -23,8 +23,9 @@ packages:
     - 'speedtest-cli'
     - 'httpie'
     # Zsh
-    - 'antidote'
+    - 'antidote' # ZSH Plugin Management
     - 'gnupg'
+    - 'leapp' # AWS Credentials management
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
     casks:
