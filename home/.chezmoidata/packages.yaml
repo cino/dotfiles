@@ -2,6 +2,8 @@ packages:
   darwin:
     taps:
     - 'hashicorp/tap'
+    - 'homebrew/cask-fonts'
+
     brews:
     - 'git'
     - 'hub'
@@ -49,3 +51,4 @@ packages:
     - 'drawio'
     - 'protonvpn'
     - 'leapp' # AWS Credentials management
+    - 'font-fira-code' # Coding font
