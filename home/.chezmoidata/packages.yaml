@@ -22,12 +22,21 @@ packages:
     - 'tmux'
     - 'speedtest-cli'
     - 'httpie'
-    # Zsh
+
+    # Terminal
     - 'antidote' # ZSH Plugin Management
-    - 'thefuck'
+    - 'thefuck' # Fun terminal command to suggest a solution for previously given command
+    - 'scc' # Gives lines of code per language in directory
+    - 'tlrc' # "TLDR" improved version of the man (manual) command
+    - 'duf' # actually readable df like output
+    - 'tree' # print file tree
+    - 'dog' # improved `dig`
     - 'gnupg'
+
+    # Development
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
+
     casks:
     - 'gpg-suite'
     - 'iterm2'
