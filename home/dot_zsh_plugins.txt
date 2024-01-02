@@ -7,3 +7,4 @@ davidde/git
 wuotr/zsh-plugin-vscode
 laggardkernel/zsh-thefuck
 MichaelAquilina/zsh-you-should-use
+fdellwing/zsh-bat
