@@ -36,6 +36,7 @@ packages:
     - 'gnupg'
     - 'bat' # improved cat
     - 'htop' # improved top
+    - 'age' # Encryption
 
     # Neovim
     - 'neovim'
