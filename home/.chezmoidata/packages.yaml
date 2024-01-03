@@ -35,6 +35,12 @@ packages:
     - 'dog' # improved `dig`
     - 'gnupg'
     - 'bat' # improved cat
+    - 'htop' # improved top
+
+    # Neovim
+    - 'neovim'
+    - 'rg'
+    - 'fd'
 
     # Development
     - 'hashicorp/tap/terraform'

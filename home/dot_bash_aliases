@@ -1,6 +1,9 @@
 #Chezmoi
 alias cm="chezmoi"
 
+# Navigation
+alias home="cd ~"
+
 # Various
 alias timestamp="date '+%s'"
 
