@@ -3,6 +3,7 @@ packages:
     taps:
     - 'hashicorp/tap'
     - 'homebrew/cask-fonts'
+    - 'pulumi/tap/pulumi' 
 
     brews:
     - 'git'
@@ -46,11 +47,11 @@ packages:
     # Development
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
+    - 'pulumi'
 
     casks:
     - 'gpg-suite'
     - 'iterm2'
-    - 'bartender'
     - 'raycast'
     - 'spotify'
     - 'visual-studio-code'
