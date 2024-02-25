@@ -211,13 +211,20 @@
     "cSpell.ignoreWords": [
         "QVBM"
     ],
-    "jest.autoRun": {
-
-        "watch": false
-    },
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "githubPullRequests.pullBranch": "never",
-    "jest.autoRevealOutput": "on-exec-error",
     "jestrunner.codeLensSelector": "**/*.{test,spec,it}.{js,jsx,ts,tsx}",
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "jest.runMode": "on-demand",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["C-d"],
+            "after": ["C-d", "z", "z"]
+        },
+        {
+            "before": ["C-u"],
+            "after": ["C-u", "z", "z"]
+        }
+    ],
 }
