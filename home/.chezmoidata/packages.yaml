@@ -2,8 +2,6 @@ packages:
   darwin:
     taps:
     - 'hashicorp/tap'
-    - 'homebrew/cask-fonts'
-    - 'pulumi/tap/pulumi' 
 
     brews:
     - 'git'
@@ -24,7 +22,6 @@ packages:
     - 'fzf'
     - 'tmux'
     - 'speedtest-cli'
-    - 'httpie'
 
     # Terminal
     - 'antidote' # ZSH Plugin Management
@@ -47,17 +44,14 @@ packages:
     # Development
     - 'hashicorp/tap/terraform'
     - 'hashicorp/tap/packer'
-    - 'pulumi'
 
     casks:
     - 'gpg-suite'
-    - 'iterm2'
     - 'raycast'
     - 'spotify'
     - 'visual-studio-code'
     - '1password'
     - 'signal'
-    - 'drawio'
     - 'protonvpn'
     - 'leapp' # AWS Credentials management
     - 'font-fira-code' # Coding font
