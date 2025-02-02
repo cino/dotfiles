@@ -1,0 +1,7 @@
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+theme = catppuccin-frappe 
+
+
+# splits
+keybind = super+shift+right_bracket=new_split:right
+keybind = super+shift+-=new_split:down

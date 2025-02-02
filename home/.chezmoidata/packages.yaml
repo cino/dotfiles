@@ -52,6 +52,7 @@ packages:
     - 'visual-studio-code'
     - '1password'
     - 'signal'
+    - 'ghostty'
     - 'protonvpn'
     - 'leapp' # AWS Credentials management
     - 'font-fira-code' # Coding font
